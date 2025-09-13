@@ -1,6 +1,8 @@
 import pygame, sys
+from pathlib import Path
 from pygame.math import Vector2 as vector
 
+BASE_DIR = Path(__file__).resolve().parent.parent  # dossier du script
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 TILE_SIZE = 64
 ANIMATION_SPEED = 6
