@@ -19,7 +19,7 @@ class Game:
 				if event.type == pygame.QUIT:
 					pygame.quit()
 					sys.exit()
-			
+
 			self.current_stage.run(dt)
 
 			pygame.display.update()
